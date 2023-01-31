@@ -46,8 +46,6 @@ const questions = [
       "What technology did you use to make your project?",
   },
 
-  
-
   { //list of choices for the user to choose the license 
     type: "list",
     name: "license",
@@ -89,7 +87,7 @@ const questions = [
 ];
 
 //Arrow function used to start the program 
-//const init = () => inquirer.prompt([...questions]);
+const init = () => inquirer.prompt([...questions]);
 
 //init()
 //.then function used to generate the read me.md file 
