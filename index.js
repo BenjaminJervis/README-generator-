@@ -70,9 +70,7 @@ const questions = [
     name: "email",
     type: "input",
     message: "Enter your email address",
-  },
-
-  
+  }, 
 ];
 
 //Arrow function used to start the program 
