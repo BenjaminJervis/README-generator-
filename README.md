@@ -36,12 +36,6 @@
   The following contributed to this project: 
   undefined
 
-  ## Tests
-  The project can be tested using the console log to make sure any errors are picked up throughout the development process. 
-  
-  ## Questions
-  Please contact me via email if you have any further questions.
-  [Contact Me](mailto:ben.jervis@gmail.com)
-  You can also visit my GitHub page if you would like to explore my work further.
+ 
   
  
