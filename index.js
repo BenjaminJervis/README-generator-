@@ -89,10 +89,10 @@ const questions = [
 //Arrow function used to start the program 
 const init = () => inquirer.prompt([...questions]);
 
-//init()
+init()
 //.then function used to generate the read me.md file 
-//.then((data) => {
-    //const README = generateMarkdown(data);
-   // return createFileAsync("README.md", README);
- // })
- // .catch((err) => console.error(err));
+.then((data) => {
+    const README = generateMarkdown(data);
+   return createFileAsync("README.md", README);
+ })
+  .catch((err) => console.error(err)); //catches errors and console logs any errors 
