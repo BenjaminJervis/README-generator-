@@ -1,8 +1,6 @@
-// function to generate markdown for README
-function generateMarkdown(data) { 
-  return `# ${data.title}
+# This is my first project 
 
-  # ${data.title} 
+  # This is my first project  
   
   ## Table of Contents
   [Description](#description)
@@ -20,35 +18,33 @@ function generateMarkdown(data) {
   [Questions](#questions)
   
   ## Description
-  ${data.description}
+  The project is learning about HTML
   
   ## technology 
-  ${data.technology}
+  HTML VS Code 
   
   ## Installation
   These steps should be followed to install this project: 
-  ${data.installation}
+  create a new file called index.html 
 
   ## Usage
   This project should be used to 
-  ${data.usage}
+  Project should be used to display basic HTML layout 
 
   ## License
-  This project holds a ${data.license} license.
+  This project holds a MIT license.
 
   ## Contributing
   The following contributed to this project: 
-  ${data.contributing}
+  undefined
 
   ## Tests
-  ${data.testing}
+  Save the HTML file and then right click and view in the browser 
  
+  ## Link to video and git hub 
+  https://drive.google.com/file/d/1zXNoqYeAPqS2cxAGWyc5Ql8HAMYveMXr/view
+
   
- 
-  
- 
-`;
-}
 
 
-module.exports = generateMarkdown;
+ 

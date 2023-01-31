@@ -58,19 +58,26 @@ const questions = [
   {
     type: "input",
     name: "testing",
-    message: "How should this project be tested?",
+    message: "How can I test the project?",
   },
   {
     type: "input",
     name: "github",
-    message: "Enter your GitHub Username",
+    message: "What is your GitHub Username, please enter below",
   },
 
   {
-    type: "input",
     name: "email",
+    type: "input",
     message: "Enter your email address",
-  }
+  },
+
+  {
+    "schemaVersion": 1,
+    "label": "Json and Node JS",
+    "message": "made with Json and Node JS",
+    "color": "Green"
+  },
 ];
 
 //Arrow function used to start the program 
