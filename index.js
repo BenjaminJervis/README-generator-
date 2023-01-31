@@ -11,13 +11,13 @@ const questions = [
     {
       type: "input",
       name: "title",
-      message: "What would you like to call the project?",
+      message: "What is the title of the project?",
     },
 {
     type: "input",
     name: "description",
     message:
-      "How would you describe your project?",
+      "How would you describe your project?, How and why did you make it?",
   },
 
   {
@@ -26,19 +26,6 @@ const questions = [
     message: "Which steps should be taken to install your project?",
   },
 
-  {
-    type: "input",
-    name: "description",
-    message:
-      "How would you describe your project?",
-  },
-
-  {
-    type: "input",
-    name: "description",
-    message:
-      "How would you describe your project?",
-  },
   {
     type: "input",
     name: "technology",
@@ -65,7 +52,7 @@ const questions = [
   },
   {
     type: "input",
-    name: "contributing",
+    name: "contribute",
     message: "Who contributed to this project what third party assets did you use?",
   },
   {
@@ -95,4 +82,5 @@ init()
     const README = generateMarkdown(data);
    return createFileAsync("README.md", README);
  })
-  .catch((err) => console.error(err)); //catches errors and console logs any errors 
+  .catch((err) => console.error(err)); //catches any errors in the code 
+  //console logs any errors in the code 
