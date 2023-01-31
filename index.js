@@ -72,12 +72,7 @@ const questions = [
     message: "Enter your email address",
   },
 
-  {
-    "schemaVersion": 1,
-    "label": "Json and Node JS",
-    "message": "made with Json and Node JS",
-    "color": "Green"
-  },
+  
 ];
 
 //Arrow function used to start the program 
