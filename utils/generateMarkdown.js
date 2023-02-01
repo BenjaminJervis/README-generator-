@@ -46,7 +46,8 @@ function generateMarkdown(data) {
   ## questions
   Please contact me via email if you have any further questions.
   [Contact Me](mailto:${data.email})
-  You can also visit my GitHub page if you would like to explore my work further.
+   
+  ## You can also visit my GitHub page if you would like to see other examples of my work.
   
   [GitHub page](https://github.com/${data.github}/ "Visit my GitHub page")  
  
